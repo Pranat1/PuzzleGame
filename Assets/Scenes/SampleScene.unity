@@ -328,7 +328,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   tilePrefab: {fileID: 788471108755847007, guid: cc014807affcfb84eabb1aecbe092376, type: 3}
-  sizeOfGrid: 10
+  sizeOfGrid: 8
   minePrefab: {fileID: 589193306624194560, guid: 19a7da206b6970b45b2c28274eb1cc3b, type: 3}
   listOfTiles:
   - {fileID: 7415847859516463277, guid: 2872bb4efece83944b86d289427a735f, type: 3}
@@ -340,6 +340,7 @@ MonoBehaviour:
   - {fileID: 5081053864697999958, guid: 7367998c347a3cb49bc893ea0d2d77a3, type: 3}
   - {fileID: 1267839666784703579, guid: 35577894d0ab4124d88a3684594dd254, type: 3}
   - {fileID: 5123768487907826802, guid: 901174d913405304da5ead2abbf7c08a, type: 3}
+  prefabMarkTile: {fileID: 0}
 --- !u!4 &2008930007
 Transform:
   m_ObjectHideFlags: 0

@@ -44,6 +44,27 @@ public class GridTiles : MonoBehaviour
 
     private void GenerateGrid()
     {
+        //var listOfZeros = new List<int>(new int[sizeOfGrid + 2]);
+        var listOfZeros = new List<int>(new int[8 + 2]);
+        var listOfZeros1 = new List<int>(){0,0,0,0,0,0,1,0,0,0};
+        var listOfZeros2 = new List<int>(){0,0,0,0,0,0,0,1,0,0};
+        var listOfZeros3 = new List<int>(){0,0,1,1,0,0,0,0,0,0};
+        var listOfZeros4 = new List<int>(){0,0,0,1,0,0,0,0,0,0};
+        var listOfZeros5 = new List<int>(){0,0,0,0,0,0,0,0,0,0};
+        var listOfZeros6 = new List<int>(){0,0,0,1,0,0,0,0,1,0};
+        var listOfZeros7 = new List<int>(){0,0,0,0,0,0,0,0,0,0};
+        var listOfZeros8 = new List<int>(){0,1,0,0,0,1,0,0,1,0};
+        Grid.Add(listOfZeros);
+        Grid.Add(listOfZeros1);
+        Grid.Add(listOfZeros2);
+        Grid.Add(listOfZeros3);
+        Grid.Add(listOfZeros4);
+        Grid.Add(listOfZeros5);
+        Grid.Add(listOfZeros6);
+        Grid.Add(listOfZeros7);
+        Grid.Add(listOfZeros8);
+        Grid.Add(listOfZeros);
+    /*
         var listOfZeros = new List<int>(new int[sizeOfGrid + 2]);
         Grid.Add(listOfZeros);
         for (int i = 0; i < sizeOfGrid; i++)
@@ -65,7 +86,10 @@ public class GridTiles : MonoBehaviour
             arrayList.Add(0);
             Grid.Add(arrayList);
         }
+        
+        
         Grid.Add(listOfZeros);
+        */
         for (int i = 1; i < sizeOfGrid + 1; i++)
         {
             List<int> newGridSub = new List<int>();
